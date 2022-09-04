@@ -8,7 +8,7 @@ class Node:
         data : stored data
         next : link to the next node
     """
-    def _init_(self, data=None, next=None):
+    def __init__(self, data=None, next=None):
         """
         Initializes the node with the given attributes
         """
@@ -31,7 +31,7 @@ class LinkedList:
         """
         self.head = None
 
-    def insert__at__end(self, data):
+    def insert_at_end(self, data):
         """
         Insert node at end of the list
         :param data: integer data that will be used to create a node
